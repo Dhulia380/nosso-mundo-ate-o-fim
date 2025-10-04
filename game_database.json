@@ -1,0 +1,72 @@
+{
+    "game_info": {
+        "title": "MissaoDoDestino",
+        "subtitle": "Nosso amor virou um jogo… e você é o prêmio final"
+    },
+    "characters": [
+        {
+            "name": "Guilherme",
+            "role": "jogador",
+            "health": 100,
+            "inventory": []
+        },
+        {
+            "name": "Dhulia",
+            "role": "par_romantico",
+            "health": 100,
+            "inventory": []
+        }
+    ],
+    "missions": [
+        {
+            "id": 1,
+            "title": "O Primeiro Encontro",
+            "description": "Guilherme precisa encontrar Dhulia no parque onde se conheceram e reviver memórias especiais.",
+            "status": "pendente",
+            "reward": [
+                "Carta de Amor"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "O Colar Perdido",
+            "description": "Dhulia perdeu seu colar precioso. Guilherme deve explorar a cidade para recuperá-lo.",
+            "status": "pendente",
+            "reward": [
+                "Pingente do Destino"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Promessa de Amor",
+            "description": "Guilherme deve encontrar a Chave do Futuro e selar uma promessa de amor eterno com Dhulia.",
+            "status": "pendente",
+            "reward": [
+                "Chave do Futuro"
+            ]
+        }
+    ],
+    "items": [
+        {
+            "name": "Pingente do Destino",
+            "type": "especial",
+            "effect": "Aumenta a sorte do jogador nas missões."
+        },
+        {
+            "name": "Carta de Amor",
+            "type": "especial",
+            "effect": "Revela segredos e dicas para avançar nas missões."
+        },
+        {
+            "name": "Chave do Futuro",
+            "type": "especial",
+            "effect": "Desbloqueia uma nova área secreta do jogo e garante recompensa final."
+        }
+    ],
+    "inventory": [],
+    "status": {
+        "level": 1,
+        "experience": 0,
+        "love_meter": 0
+    }
+}
